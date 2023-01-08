@@ -23,6 +23,7 @@ module.exports = {
     fontFamily: {
       // Poppins: ['Poppins', 'sans-serif'],
       // Montserrat: ['Montserrat', 'sans-serif'],
+      Roboto: ['Roboto', 'sans-serif']
     },
  
   },
