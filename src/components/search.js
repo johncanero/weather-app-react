@@ -32,7 +32,7 @@ const Search = ({ onSearchChange }) => {
 
   return (
     <div>
-      <div className="container max-w-6xl mx-auto mt-2">
+      <div className="container w-full mx-auto mt-2 md:max-w-xl lg:max-w-5xl">
         <AsyncPaginate
           placeholder="Search for city"
           debounceTimeout={600}
