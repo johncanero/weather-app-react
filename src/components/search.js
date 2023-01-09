@@ -1,5 +1,25 @@
-const Search = () => {
-    return ('Hello')
-}
+import React, { useState } from "react";
+import { AsyncPaginate } from "react-select-async-paginate";
 
-export default Search
+const Search = ({ onSearchChange }) => {
+  const [search, setSearch] = useState(null);
+
+  const handleOnChange = (searchData) => {
+    setSearch(searchData);
+    onSearchChange(searchData);
+  };
+  return (
+    <div>
+      <div className="container mx-auto mt-2">
+        <AsyncPaginate
+          placeholder="Search for city"
+          debounceTimeout={600}
+          value={search}
+          onChange={handleOnChange}
+        />
+      </div>
+    </div>
+  );
+};
+
+export default Search;

@@ -3,12 +3,14 @@ import Hero from "./sections/Hero";
 import Search from "./components/search";
 
 function App() {
+  const handleOnSearchChange = (searchData) => {
+    console.log(searchData);
+  };
+
   return (
     <div>
       <Hero />
-      <div className="flex justify-center">
-        <Search />
-      </div>
+      <Search onSearchChange={handleOnSearchChange} />
     </div>
   );
 }
