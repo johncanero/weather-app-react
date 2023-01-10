@@ -1,8 +1,8 @@
-
 import { useState } from "react";
 import "./App.css";
 import Hero from "./sections/Hero";
 import Search from "./components/search";
+import Forecast from "./components/forecast/forecast";
 import CurrentWeather from "./components/current-weather/current-weather";
 import { WEATHER_API_URL, WEATHER_API_KEY } from "./api";
 
@@ -19,7 +19,7 @@ function App() {
     );
     const forecastFetch = fetch(
       `${WEATHER_API_URL}/forecast?lat=${lat}&lon=${lon}&appid=${WEATHER_API_KEY}&units=metric`
-    ); 
+    );
 
     Promise.all([currentWeatherFetch, forecastFetch])
       .then(async (response) => {
@@ -40,6 +40,7 @@ function App() {
       <Hero />
       <Search onSearchChange={handleOnSearchChange} />
       {currentWeather && <CurrentWeather data={currentWeather} />}
+      {forecast && <Forecast data={forecast} />}
     </div>
   );
 }
