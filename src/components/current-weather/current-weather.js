@@ -1,9 +1,9 @@
 import "./current-weather.css";
 
-const CurrentWeather = () => {
+const CurrentWeather = ({ data }) => {
   return (
     <div className="weather">
-    {/* Top */}
+      {/* Top */}
       <div className="top">
         {/* City and Weather */}
         <div>
