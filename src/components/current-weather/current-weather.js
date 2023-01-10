@@ -5,13 +5,15 @@ const CurrentWeather = ({ data }) => {
     <div className="weather">
       {/* Top */}
       <div className="top">
-        {/* City and Weather */}
         <div>
-          <p className="city">Manila</p>
-          <p className="weather-description">Sunny</p>
+          <p className="city">{data.city}</p>
+          <p className="weather-description">{data.weather[0].description}</p>
         </div>
-        {/* Icon */}
-        <img alt="weather" className="weather-icon" src="/icons/01d.png" />
+        <img
+          alt="weather"
+          className="weather-icon"
+          src={`icons/${data.weather[0].icon}.png`}
+        />
       </div>
 
       {/* Bottom */}
