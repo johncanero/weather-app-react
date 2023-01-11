@@ -21,6 +21,12 @@ This application allows users to view the current weather forecast for a specifi
 
 </div>
 
+## Features
+
+- View current weather forecast for a specific location
+- Display temperature, humidity, and precipitation information
+- Responsive design for easy viewing on mobile devices
+
 ## Built With
 
 - [Rapid AI](https://rapidapi.com/wirefreethought/api/geodb-cities/) - GeoDB Cities API Documentation
