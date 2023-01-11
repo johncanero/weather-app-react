@@ -40,14 +40,14 @@ function App() {
   console.log(forecast);
 
   return (
-    <div className="flex flex-col justify-between h-screen">
-      <Hero className="h-10" />
-      <div className="h-10 mb-auto">
+    <div className="flex flex-col min-h-screen">
+      <Hero/>
+      <div>
         <Search onSearchChange={handleOnSearchChange} />
         {currentWeather && <CurrentWeather data={currentWeather} />}
         {forecast && <Forecast data={forecast} />}
       </div>
-      <Footer className="h-10" />
+      <Footer />
     </div>
   );
 }
