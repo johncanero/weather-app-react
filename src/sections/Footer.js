@@ -8,7 +8,7 @@ const Footer = () => {
         rel="noopener noreferrer"
         href="https://www.linkedin.com/in/johncanero/"
       >
-        <span className="mr-2 font-bold text-neutral-900">
+        <span className="mr-2 font-bold drop-shadow-sm">
           John Cañero
         </span>
       </a>

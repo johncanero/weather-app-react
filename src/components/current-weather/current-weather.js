@@ -6,7 +6,7 @@ const CurrentWeather = ({ data }) => {
       {/* Top */}
       <div className="top">
         <div>
-          <p className="city">{data.city}</p>
+          <p className="city ">{data.city}</p>
           <p className="weather-description">{data.weather[0].description}</p>
         </div>
         <img
@@ -18,7 +18,7 @@ const CurrentWeather = ({ data }) => {
 
       {/* Bottom */}
       <div className="bottom">
-        <p className="temperature">{Math.round(data.main.temp)}°C</p>
+        <p className="temperature text-amber-400">{Math.round(data.main.temp)}°C</p>
         <div className="details">
             {/* Details */}
           <div className="parameter-row">
