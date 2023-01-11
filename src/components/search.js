@@ -5,7 +5,7 @@ import { geoApiOptions, GEO_API_URL } from "../api";
 const Search = ({ onSearchChange }) => {
   const [search, setSearch] = useState(null);
 
-  // GeoDB Cities
+  // GeoDB Cities API Documentation: GET Cities (JavaScript Fetch)
   const loadOptions = (inputValue) => {
     return fetch(
       `${GEO_API_URL}/cities?minPopulation=1000000&namePrefix=${inputValue}`,

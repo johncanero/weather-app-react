@@ -1,12 +1,16 @@
 import { useState } from "react";
 import "./App.css";
+// Sections
 import Hero from "./sections/Hero";
 import Search from "./components/search";
-import Forecast from "./components/forecast/forecast";
 import CurrentWeather from "./components/current-weather/current-weather";
+import Forecast from "./components/forecast/forecast";
+import Footer from "./sections/Footer";
+// Weather API Key
 import { WEATHER_API_URL, WEATHER_API_KEY } from "./api";
 
 function App() {
+  // OpenWeather - Current Weather
   const [currentWeather, setCurrentWeather] = useState(null);
   const [forecast, setForecast] = useState(null);
 
@@ -36,11 +40,14 @@ function App() {
   console.log(forecast);
 
   return (
-    <div>
-      <Hero />
-      <Search onSearchChange={handleOnSearchChange} />
-      {currentWeather && <CurrentWeather data={currentWeather} />}
-      {forecast && <Forecast data={forecast} />}
+    <div className="flex flex-col justify-between h-screen">
+      <Hero className="h-10" />
+      <div className="h-10 mb-auto">
+        <Search onSearchChange={handleOnSearchChange} />
+        {currentWeather && <CurrentWeather data={currentWeather} />}
+        {forecast && <Forecast data={forecast} />}
+      </div>
+      <Footer className="h-10" />
     </div>
   );
 }
