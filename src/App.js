@@ -7,7 +7,7 @@ import CurrentWeather from "./components/current-weather/current-weather";
 import Forecast from "./components/forecast/forecast";
 import Footer from "./sections/Footer";
 // Weather API Key
-import { WEATHER_API_URL, WEATHER_API_KEY } from "./api";
+import { WEATHER_API_URL, WEATHER_API_KEY } from "./components/utils/api";
 
 function App() {
   // OpenWeather - Current Weather
