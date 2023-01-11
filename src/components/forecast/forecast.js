@@ -26,7 +26,7 @@ const Forecast = ({ data }) => {
 
   return (
     <div className="container w-full mx-auto mt-2 md:max-w-xl lg:max-w-5xl">
-      <label className="title">Daily</label>
+      <label className="flex justify-center mt-2 text-white drop-shadow-2xl title">Daily Forecast</label>
       <Accordion allowZeroExpanded>
         {data.list.splice(0, 7).map((item, idx) => (
           <AccordionItem key={idx}>
