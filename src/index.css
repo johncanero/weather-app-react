@@ -9,7 +9,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 
-    background-image:url('/public/images/weatherAppBackground.jpg');
+    background-image:url('./images/weatherAppBackground.jpg');
     background-attachment:fixed;
     background-repeat: no-repeat;
     background-size: cover;
