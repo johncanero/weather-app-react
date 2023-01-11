@@ -8,6 +8,10 @@ body {
     font-family: "Roboto", sans-serif !important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: #d5d4d4;
+
+    background-image:url('/public/images/weatherAppBackground.jpg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
