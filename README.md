@@ -44,13 +44,9 @@ This application allows users to view the current weather forecast for a specifi
 
 🪟: [Desktop - Tablet - Mobile]
 
-Desktop Responsive Light
-![Desktop View - Lead Landing Page - Digital Marketing Website](./public/images/responsive/leadLandingPageLight.jpg)
-Desktop Responsive Light: How To Buy
-![Desktop View - Lead Landing Page - Digital Marketing Website](./public/images/responsive/leadLandingPageServicesLight.jpg)
-Desktop Responsive Dark
-![Desktop View - Lead Landing Page - Digital Marketing Website](./public/images/responsive/leadLandingPageDark.jpg)
-Tablet Responsive | Light and Dark
-![Tablet View - Lead Landing Page - Digital Marketing Website](./public/images/responsive/leadLandingPageTablet.jpg)
-Mobile Responsive | Light and Dark
-![Mobile View - Lead Landing Page - Digital Marketing Website](./public/images/responsive/leadLandingPageMobile.jpg)
+Desktop Responsive 
+![Desktop View - WeatherCast Application](./src/images/responsive/weatherForecastDesktop.jpg)
+Tablet Responsive 
+![Tablet View - WeatherCast Application](./src/images/responsive/weatherForecastTablet.jpg)
+Mobile Responsive
+![Mobile View - WeatherCast Application](./src/images/responsive/weatherForecastMobile.jpg)
