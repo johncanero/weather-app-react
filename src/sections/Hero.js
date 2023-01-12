@@ -13,7 +13,7 @@ const Hero = () => {
               alt="weatherAppIcon"
             />
             <h1 className="text-3xl font-bold text-white drop-shadow-2xl">
-              Weather Forecast
+              WeatherCast
             </h1>
           </div>
         </a>
