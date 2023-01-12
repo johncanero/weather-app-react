@@ -8,7 +8,7 @@
 } -->
 
 <div align="center">
-  <a href="https://weather-app-react-by-johncanero.vercel.app/" target="_blank">
+  <a href="https://weathercast-app-react-by-johncanero.vercel.app/" target="_blank">
     <img alt="weatherAppLogo" height="100" src="./src/images/weatherAppIcon.png"/>
   </a>
 </div>
@@ -36,7 +36,7 @@ This application allows users to view the current weather forecast for a specifi
 
 ## Website
 
-🖥️ [https://weather-app-react-by-johncanero.vercel.app/]
+🖥️ [https://weathercast-app-react-by-johncanero.vercel.app/]
 
 ✍️ Project by John Cañero
 
