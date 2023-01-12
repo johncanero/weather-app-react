@@ -15,7 +15,7 @@
 
 <div align="center">
 
-# Weather Forecast Application
+# WeatherCast 
 
 This application allows users to view the current weather forecast for a specific location. The forecast includes information such as temperature, humidity, and precipitation.
 
