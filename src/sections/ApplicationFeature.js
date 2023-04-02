@@ -7,7 +7,7 @@ const ApplicationFeature = () => {
       {/* Application */}
       <div className="mt-4 mb-36 md:mb-12 lg:mb-20 lg:mt-8">
         <div className="mb-4">
-          <h2 className="mx-6 mb-3 text-lg font-semibold text-center md:text-2xl lg:text-3xl md:mx-20 lg:mx-0">
+          <h2 className="mx-6 mb-3 text-lg font-semibold text-center md:text-2xl lg:text-3xl md:mx-20 lg:mx-0 text-white">
             Introducing WeatherCast - Your Ultimate Weather Companion
           </h2>
           <p className="mx-8 text-base text-center text-white lg:text-lg md:mx-36 lg:mx-96">
@@ -41,20 +41,25 @@ const ApplicationFeature = () => {
           </div>
         </motion.div>
 
-        <p className="mx-8 italic text-center lg:text-xl md:mx-40 lg:mx-72">
-          Whether you need to plan your day, stay up-to-date on severe weather
-          alerts, or simply check the current temperature, WeatherCast has you
-          covered.
-        </p>
+        <div>
+          <p className="mx-8 italic text-center lg:text-xl md:mx-40 lg:mx-72">
+            Whether you need to plan your day, stay up-to-date on severe weather
+            alerts, or simply check the current temperature, WeatherCast has you
+            covered.
+          </p>
 
-        <p className="mx-8 mt-4 italic text-center lg:text-xl md:mx-40 lg:mx-72">
-          Our app uses advanced technology to provide you with hyper-local
-          weather data, so you can stay prepared no matter where you are.{" "}
-          <span className="font-bold">
-            Download <a href="/" rel="noreferrer" className="hover:text-white">WeatherCast</a> today and take control of your
-            weather forecasting needs!
-          </span>
-        </p>
+          <p className="mx-8 mt-4 italic text-center lg:text-xl md:mx-40 lg:mx-72">
+            Our app uses advanced technology to provide you with hyper-local
+            weather data, so you can stay prepared no matter where you are.{" "}
+            <span className="font-bold text-white">
+              Download{" "}
+              <a href="/" rel="noreferrer" className="hover:text-black">
+                WeatherCast
+              </a>{" "}
+              today and take control of your weather forecasting needs!
+            </span>
+          </p>
+        </div>
       </div>
     </div>
   );
