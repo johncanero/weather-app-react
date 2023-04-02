@@ -29,7 +29,7 @@ This application allows users to view the current weather forecast for a specifi
 
 ## Built With
 
-- [Rapid AI](https://rapidapi.com/wirefreethought/api/geodb-cities/) - GeoDB Cities API Documentation
+- [Rapid API](https://rapidapi.com/wirefreethought/api/geodb-cities/) - GeoDB Cities API Documentation
 - [OpenWeather](https://openweathermap.org/) - Weather forecasts, nowcasts and history in a fast and elegant way
 
 
