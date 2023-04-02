@@ -1,10 +1,15 @@
 import { useState } from "react";
 import "./App.css";
 // Sections
+// Hero
 import Hero from "./sections/Hero";
+// Function Feature
 import Search from "./components/search";
 import CurrentWeather from "./components/current-weather/current-weather";
 import Forecast from "./components/forecast/forecast";
+// Footer and Application Feature
+// eslint-disable-next-line no-unused-vars
+import ApplicationFeature from "./sections/ApplicationFeature";
 import Footer from "./sections/Footer";
 // Weather API Key
 import { WEATHER_API_URL, WEATHER_API_KEY } from "./components/utils/api";
@@ -47,6 +52,8 @@ function App() {
         {currentWeather && <CurrentWeather data={currentWeather} />}
         {forecast && <Forecast data={forecast} />}
       </div>
+      {/* Application Feature */}
+      <ApplicationFeature />
       <Footer />
     </div>
   );
