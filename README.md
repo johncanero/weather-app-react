@@ -44,9 +44,21 @@ This application allows users to view the current weather forecast for a specifi
 
 🪟: [Desktop - Tablet - Mobile]
 
-Desktop Responsive 
-![Desktop View - WeatherCast Application](./src/images/responsive/weatherForecastDesktop.jpg)
+WeatherCast 
+![Desktop View - WeatherCast Application](./src/images/responsive/weatherCastApp1.png)
+
+Desktop Responsive Application
+![Desktop View - WeatherCast Application](./src/images/responsive/weatherCastApp2.png)
+
+Desktop Responsive Introduction
+![Desktop View - WeatherCast Application](./src/images/responsive/weatherCastDesktop.jpg)
+
+Desktop Responsive Results
+![Desktop View - WeatherCast Application](./src/images/responsive/weatherCastDesktopResults.jpg)
+
+
+
 Tablet Responsive 
-![Tablet View - WeatherCast Application](./src/images/responsive/weatherForecastTablet.jpg)
+![Tablet View - WeatherCast Application](./src/images/responsive/weatherCastTablet.jpg)
 Mobile Responsive
-![Mobile View - WeatherCast Application](./src/images/responsive/weatherForecastMobile.jpg)
+![Mobile View - WeatherCast Application](./src/images/responsive/weatherCastMobile.jpg)
