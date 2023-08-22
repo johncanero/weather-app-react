@@ -43,22 +43,21 @@ This application allows users to view the current weather forecast for a specifi
 ## Responsive Design
 
 🪟: [Desktop - Tablet - Mobile]
+![WeatherCast Portfolio](./src/images/responsive/weatherCastPortfolio.jpg)
+![WeatherCast - Branding Portfolio](./src/images/responsive/weatherCast.jpg)
+![WeatherCast - Description Portfolio](./src/images/responsive/weatherCastInfo.jpg)
 
-WeatherCast 
-![Desktop View - WeatherCast Application](./src/images/responsive/weatherCastApp1.png)
+![WeatherCast - Mockup Portfolio](./src/images/responsive/weatherCastIntroductoryPage.jpg)
+![WeatherCast - Mockup Portfolio](./src/images/responsive/weatherCastApiIntegration.jpg)
 
-Desktop Responsive Application
-![Desktop View - WeatherCast Application](./src/images/responsive/weatherCastApp2.png)
+![WeatherCast - Mobile Portfolio](./src/images/responsive/weatherCastLanding.jpg)
+![WeatherCast - Mobile Portfolio](./src/images/responsive/weatherCastFunction.jpg)
+![WeatherCast - Mobile Portfolio](./src/images/responsive/weatherCastLandingAndFunction.jpg)
 
-Desktop Responsive Introduction
-![Desktop View - WeatherCast Application](./src/images/responsive/weatherCastDesktop.jpg)
+![WeatherCast - Tablet Portfolio](./src/images/responsive/weatherCastTabletLanding.jpg)
+![WeatherCast - Tablet Portfolio](./src/images/responsive/weatherCastTabletFunction.jpg)
+![WeatherCast - Tablet Portfolio](./src/images/responsive/weatherCastTabletLandingAndFunction.jpg)
 
-Desktop Responsive Results
-![Desktop View - WeatherCast Application](./src/images/responsive/weatherCastDesktopResults.jpg)
-
-
-
-Tablet Responsive 
-![Tablet View - WeatherCast Application](./src/images/responsive/weatherCastTablet.jpg)
-Mobile Responsive
-![Mobile View - WeatherCast Application](./src/images/responsive/weatherCastMobile.jpg)
+![WeatherCast - Desktop Portfolio](./src/images/responsive/weatherCastDesktopLanding.jpg)
+![WeatherCast - Desktop Portfolio](./src/images/responsive/weatherCastDesktopFunction.jpg)
+![WeatherCast - Desktop Portfolio](./src/images/responsive/weatherCastDesktopMockup.jpg)
