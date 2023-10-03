@@ -7,7 +7,7 @@ const ApplicationFeature = () => {
       {/* Application */}
       <div className="mt-4 mb-36 md:mb-12 lg:mb-20 lg:mt-8">
         <div className="mb-4">
-          <h2 className="mx-6 mb-3 text-lg font-semibold text-center md:text-2xl lg:text-3xl md:mx-20 lg:mx-0 text-white">
+          <h2 className="mx-6 mb-3 text-lg font-semibold text-center text-white md:text-2xl lg:text-3xl md:mx-20 lg:mx-0">
             Introducing WeatherCast - Your Ultimate Weather Companion
           </h2>
           <p className="mx-8 text-base text-center text-white lg:text-lg md:mx-36 lg:mx-96">
@@ -21,10 +21,11 @@ const ApplicationFeature = () => {
 
         {/* Image */}
         <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
           transition={{
-            duration: 0.3,
+            delay: 0.4,
+            duration: 0.4,
           }}
           className="flex my-6 lg:my-3"
         >
